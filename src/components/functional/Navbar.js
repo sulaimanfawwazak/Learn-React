@@ -7,6 +7,7 @@ function Navbar(props) {
         <li><a href='#'>About</a></li>
         <li><a href='#'>Contact</a></li>
         <li><a href='#'>{props.navText}</a></li>
+        <li><a href='#'>{!props.navValue ? "AOWKAWOKOAWOK" : props.navValue}</a></li>
       </ul>
     </div>
   )
